@@ -4,20 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SEO Analyzer</title>
-    <link rel="stylesheet" href="popup.css">
-
+    <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
-    <h1>SEO Details</h1>
-    <div id="seo-results">
-      <p class="result"><span class="label">Title:</span> <span id="title"></span></p>
-      <p class="result"><span class="label">Description:</span> <span id="description"></span></p>
-      <p class="result"><span class="label">Word Count:</span> <span id="wordCount"></span></p>
-      <p class="result"><span class="label">Headings:</span> <span id="headings"></span></p>
-      <p class="result"><span class="label">Internal Links:</span> <span id="internalLinks"></span></p>
-      
+    <div class="container">
+      <h1>SEO Analyzer</h1>
+      <button id="theme-toggle" class="toggle-btn">🌙 Dark Mode</button>
+      <div id="seo-results">
+        <div id="loading" class="loading-spinner">🔄</div>
+        
+        <div class="result">
+          <span class="icon">📄</span>
+          <span class="label">Title:</span>
+          <span id="title" class="value">Loading...</span>
+        </div>
+        <div class="result">
+          <span class="icon">📝</span>
+          <span class="label">Description:</span>
+          <span id="description" class="value">Loading...</span>
+        </div>
+        <div class="result">
+          <span class="icon">🔢</span>
+          <span class="label">Word Count:</span>
+          <span id="wordCount" class="value">Loading...</span>
+        </div>
+        <div class="result">
+          <span class="icon">🏷️</span>
+          <span class="label">Headings:</span>
+          <span id="headings" class="value">Loading...</span>
+        </div>
+        <div class="result">
+          <span class="icon">🔗</span>
+          <span class="label">Internal Links:</span>
+          <span id="internalLinks" class="value">Loading...</span>
+        </div>
+      </div>
     </div>
-
     <script src="popup.js"></script>
   </body>
 </html>
