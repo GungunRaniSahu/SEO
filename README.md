@@ -20,9 +20,13 @@ Quick and lightweight — no external libraries needed.
 📂 Project Structure
 
 seo-analyzer-extension/
+
 ├── manifest.json
+
 ├── popup.html
+
 ├── popup.css
+
 ├── popup.js
 
 🛠 Installation
@@ -56,13 +60,6 @@ The Count of Internal Links on the page
 
 Switch between Light and Dark mode with one click!
 
-🎨 Screenshots
-
-Light Mode:
-
-Dark Mode:
-
-(Replace link-to-light-mode-screenshot and link-to-dark-mode-screenshot with actual images if you want.)
 
 📦 Tech Stack
 
