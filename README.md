@@ -69,7 +69,7 @@ CSS3 (with Flexbox, transitions, and animations)
 
 JavaScript (Vanilla)
 
-🚀 Future Improvements (Optional Ideas)
+🚀 Future Improvements 
 
 Analyze Page Speed Insights.
 
