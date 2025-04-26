@@ -1,5 +1,7 @@
 🚀 SEO Analyzer Chrome Extension
+
 SEO Analyzer is a simple and powerful Chrome Extension that helps you quickly analyze basic SEO details of any webpage.
+
 It provides insights like the title, description, word count, headings, and internal links — all from a clean and modern interface with dark mode support!
 
 ✨ Features
@@ -16,9 +18,7 @@ Smooth transitions and subtle hover effects.
 Quick and lightweight — no external libraries needed.
 
 📂 Project Structure
-pgsql
-Copy
-Edit
+
 seo-analyzer-extension/
 ├── manifest.json
 ├── popup.html
@@ -37,6 +37,7 @@ Click Load Unpacked and select the seo-analyzer-extension folder.
 Pin the extension and start analyzing webpages instantly!
 
 📋 How It Works
+
 Open any webpage.
 
 Click on the SEO Analyzer extension icon.
@@ -56,6 +57,7 @@ The Count of Internal Links on the page
 Switch between Light and Dark mode with one click!
 
 🎨 Screenshots
+
 Light Mode:
 
 Dark Mode:
@@ -63,6 +65,7 @@ Dark Mode:
 (Replace link-to-light-mode-screenshot and link-to-dark-mode-screenshot with actual images if you want.)
 
 📦 Tech Stack
+
 HTML5
 
 CSS3 (with Flexbox, transitions, and animations)
@@ -70,6 +73,7 @@ CSS3 (with Flexbox, transitions, and animations)
 JavaScript (Vanilla)
 
 🚀 Future Improvements (Optional Ideas)
+
 Analyze Page Speed Insights.
 
 Check for Missing Alt Attributes.
@@ -79,9 +83,11 @@ Support for Mobile/Responsive SEO Analysis.
 Add a copy to clipboard button for results.
 
 👩‍💻 Author
+
 Made with ❤️ by Gungun Rani Sahu
 
 If you find this project helpful, please ⭐️ the repo and share it!
 
 📜 License
+
 This project is open-source and available under the MIT License.
